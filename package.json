@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-twiliovoicesdk",
+  "name": "@broadly/cordova-plugin-twiliovoicesdk",
   "version": "6.0.3-fix",
   "description": "Use the Twilio Voice SDK for iOS or Android with Cordova/PhoneGap. Successor to Twilio Client Plugin",
   "cordova": {
