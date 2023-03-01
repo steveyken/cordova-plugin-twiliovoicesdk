@@ -41,13 +41,13 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application" android:exported="false">
             <!-- [START fcm_listener] -->
-            <service
-                android:exported="true"
-                android:name="com.phonegap.plugins.twiliovoice.fcm.VoiceFirebaseMessagingService">
-                <intent-filter>
-                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
-                </intent-filter>
-            </service>
+            <!-- <service -->
+            <!--     android:exported="true" -->
+            <!--     android:name="com.phonegap.plugins.twiliovoice.fcm.VoiceFirebaseMessagingService"> -->
+            <!--     <intent-filter> -->
+            <!--         <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+            <!--     </intent-filter> -->
+            <!-- </service> -->
             <!-- [END fcm_listener] -->
             <meta-data
                 android:name="com.google.android.gms.version"
